@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+  <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+
+    }
+    header{
+        background-color: white;
+     }
+     nav{
+        background-color: rgb(217, 221, 217);
+        padding: 3px;
+        box-shadow: 2px 2px 4px 1px rgb(0, 0,0, 0,315)
+     }
+     nav >a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+     }
+     article{
+        background-color: lightgray;
+        padding: 5px;
+     }
+     main{
+        background-color: white;
+        padding: 30px;
+        margin: 10px;
+        border-radius: 20px;
+         }
+
+         article > aside{
+            background-color: black;
+         }
+        
+         footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 0px;
+        
+     }
+  </style>
+</head>
+<body>
+   <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+   </header>
+   <main>
+    <section id="assuntos">
+        <article>
+            <h2>Noticias Sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime autem quisquam iste impedit iure ullam debitis nemo quia exercitationem! Magni eligendi sed, molestiae officiis tempore quibusdam a. Quam, voluptatibus dolorem!</p>
+            <aside>
+
+            </aside>
+        </article>
+    </section>
+
+   </main>
+   <footer>
+    <p>Desenvolvido pelo CursoemVideo</p>
+   </footer>
+   </body>
+</html>
